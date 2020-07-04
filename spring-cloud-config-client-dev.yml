@@ -7,3 +7,5 @@ eureka:
       defaultZone: http://localhost:8040/eureka
 server:
   port: 8046
+
+zzy: 666
