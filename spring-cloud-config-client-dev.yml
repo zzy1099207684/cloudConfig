@@ -8,4 +8,4 @@ eureka:
 server:
   port: 8046
 
-zzy: 666
+zzy: 888
