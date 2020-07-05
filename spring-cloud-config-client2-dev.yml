@@ -18,7 +18,7 @@ server:
   port: 8047
   
   
-zzy: 935378
+zzy: 66666
  
 ## 刷新时，关闭安全验证
 management:
