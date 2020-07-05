@@ -1,9 +1,20 @@
 spring:
   application:
-    name: config-client
+    name: config-client2
+  cloud:
+    bus: ## 开启消息跟踪
+      trace:
+        enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8040/eureka
 server:
-  port: 8046
+  port: 8047
+ 

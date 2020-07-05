@@ -1,6 +1,15 @@
 spring:
   application:
     name: config-client
+  cloud:
+    bus: ## 开启消息跟踪
+      trace:
+        enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
