@@ -18,3 +18,9 @@ server:
   port: 8046
 
 zzy: 777
+
+
+## 刷新时，关闭安全验证
+management:
+  security:
+    enabled: false

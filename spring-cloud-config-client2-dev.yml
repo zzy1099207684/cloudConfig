@@ -10,7 +10,6 @@ spring:
     port: 5672
     username: guest
     password: guest
-    
 eureka:
   client:
     service-url:
@@ -21,3 +20,7 @@ server:
   
 zzy: 777
  
+## 刷新时，关闭安全验证
+management:
+  security:
+    enabled: false
